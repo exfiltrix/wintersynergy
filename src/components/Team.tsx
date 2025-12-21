@@ -1,4 +1,3 @@
-import ElectricBorder from './ElectricBorder';
 import farruxAvatar from '../assets/images/farrux.jpg';
 import billyAvatar from '../assets/images/billy.jpg';
 
@@ -44,7 +43,7 @@ const Team = () => {
     <section id="team">
       <div className="pill w-fit mx-auto mb-4">Команда</div>
       <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-3">Наша команда</h3>
-      <p className="text-center text-gray-400 mb-10">Энтузиасты с нужными компетенциями для реализации этой идеи.</p>
+      <p className="text-center text-gray-400 mb-10">Энтузиасты с нужными компетенциями, включая экспертизу в AI, для реализации этой идеи.</p>
       <div className="grid md:grid-cols-3 gap-8">
         {teamMembers.map(member => (
           <TeamMemberCard key={member.name} {...member} />

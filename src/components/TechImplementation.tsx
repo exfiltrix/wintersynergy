@@ -25,7 +25,7 @@ const TechImplementation = () => {
         {/* AI Stack */}
         <TechCard 
           title="Генеративные AI"
-          description="Создание динамических IT-сценариев, генерация кода и тестов в реальном времени (GPT-4, Gemini Pro)."
+          description="Создание интеллектуальных Roadmap, динамических IT-сценариев, генерация кода и тестов в реальном времени (GPT-4, Gemini Pro)."
           icon={<svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3v4M3 5h4M4 17v4M2 19h4M17 3v4M15 5h4M18 17v4M16 19h4M9 9a2 2 0 012-2h2a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2V9z"></path></svg>}
         />
         <TechCard 

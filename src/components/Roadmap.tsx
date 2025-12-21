@@ -7,7 +7,7 @@ const Roadmap = () => {
       quarter: "Q1 2026",
       title: "Закрытое бета-тестирование",
       description: "Запуск MVP и сбор обратной связи для отладки основного функционала.",
-      status: "completed",
+      status: "in_progress",
     },
     {
       quarter: "Q2 2026",

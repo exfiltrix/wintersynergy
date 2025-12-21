@@ -4,6 +4,8 @@ type ElectricBorderProps = {
   children: ReactNode;
   color?: string;
   thickness?: number;
+  speed?: number;
+  chaos?: number;
   className?: string;
   style?: CSSProperties;
 };

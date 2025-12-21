@@ -2,20 +2,22 @@ import AnimatedSection from "./components/AnimatedSection";
 import ProblemSolution from "./components/ProblemSolution";
 import Team from "./components/Team";
 import TechImplementation from "./components/TechImplementation";
-import ElectricBorder from "./components/ElectricBorder";
 import WhyOurTeam from "./components/WhyOurTeam";
 import Roadmap from "./components/Roadmap";
+import TargetCursor from "./components/TargetCursor";
 
 function App() {
   return (
     <div className="bg-gray-900 text-white min-h-screen font-sans relative overflow-hidden">
 
       {/* Header */}
-      <header className="sticky top-0 z-20 border-b border-white/5 bg-slate-900/70 backdrop-blur-md">
+      <header className="fixed top-0 z-20 w-full border-b border-white/5 bg-slate-900/70 backdrop-blur-md">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between gap-6">
           <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-teal-500 via-emerald-500 to-green-400 shadow-lg shadow-teal-500/30 flex items-center justify-center font-bold text-lg">
-                          AI
+                          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 019 9v3a4 4 0 01-4 4H7a4 4 0 01-4-4v-3a9 9 0 019-9z"></path>
+                          </svg>
                         </div>
                         <div>
                           <p className="text-sm uppercase tracking-[0.25em] text-teal-200/80">AI-Ментор</p>
@@ -32,12 +34,12 @@ function App() {
                       </nav>
             
                       <div className="flex items-center gap-3">
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex">Начать проект</a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn-primary">Начать проект</a>
                       </div>
                     </div>
                   </header>
             
-                  <main className="container mx-auto px-6 pb-16 flex flex-col gap-20 relative z-[1]">
+                  <main className="container mx-auto px-6 pb-16 pt-16 flex flex-col gap-20 relative z-[1]">
                     {/* Hero Section */}
                     <section className="flex flex-col gap-6 items-center text-center py-12 md:py-20">
                       <div className="space-y-6 text-center">
@@ -98,10 +100,7 @@ function App() {
                     </AnimatedSection>
                   </main>
             
-                  {/* Footer */}
-                  <footer className="py-8 mt-6 border-t border-gray-800 text-center text-gray-500 relative z-[1]">
-                    <p>&copy; 2025 Winter Synergy Hackathon. Проект "AI-Mentor".</p>
-                  </footer>
+                  <TargetCursor />
                 </div>
               );
             }
