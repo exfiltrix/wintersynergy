@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Concept B: impulse bolt + SNRG wordmark -->
+  <rect width="1024" height="1024" fill="#5B3DF5"/>
+  <path fill="#C6FF3D" d="M612 120L370 445H500L414 620L676 312H538Z"/>
+  <g fill="#FFFFFF" transform="translate(522 712) skewX(-12) scale(1.25) translate(-227 -75)">
+    <path d="M0 0H100V30H30V60H100V150H0V120H70V90H0Z"/>
+    <path transform="translate(118 0)" d="M0 0H30L70 95V0H100V150H70L30 55V150H0Z"/>
+    <path transform="translate(236 0)" fill-rule="evenodd" d="M0 0H100V90H78L100 150H68L48 90H30V150H0Z M30 30V60H70V30Z"/>
+    <path transform="translate(354 0)" d="M0 0H100V30H30V120H70V90H50V60H100V150H0Z"/>
+  </g>
+</svg>

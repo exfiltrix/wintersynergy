@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Concept C: squad shield with rank chevrons and SNRG band -->
+  <defs>
+    <clipPath id="inner"><path d="M512 176L764 280V556L512 836L260 556V280Z"/></clipPath>
+  </defs>
+  <rect width="1024" height="1024" fill="#12141A"/>
+  <path fill="#FF5A1F" d="M512 130L804 250V570L512 892L220 570V250Z"/>
+  <path fill="#12141A" d="M512 176L764 280V556L512 836L260 556V280Z"/>
+  <g fill="#FF5A1F">
+    <path d="M512 222L700 346V416L512 292L324 416V346Z"/>
+    <path d="M512 338L700 462V532L512 408L324 532V462Z"/>
+  </g>
+  <g clip-path="url(#inner)">
+    <rect x="200" y="560" width="624" height="120" fill="#F4F4F4"/>
+  </g>
+  <g fill="#12141A" transform="translate(512 620) skewX(-12) scale(0.62) translate(-236 -75)">
+    <path d="M0 0H100V30H30V60H100V150H0V120H70V90H0Z"/>
+    <path transform="translate(124 0)" d="M0 0H30L70 95V0H100V150H70L30 55V150H0Z"/>
+    <path transform="translate(248 0)" fill-rule="evenodd" d="M0 0H100V90H78L100 150H68L48 90H30V150H0Z M30 30V60H70V30Z"/>
+    <path transform="translate(372 0)" d="M0 0H100V30H30V120H70V90H50V60H100V150H0Z"/>
+  </g>
+</svg>

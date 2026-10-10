@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Concept A: SF monogram. Glyphs are hand-built "SNRG Block" shapes on a 100x150 grid, stroke 30 -->
+  <rect width="1024" height="1024" fill="#0B1026"/>
+  <!-- power ring with a gap: energy / "on" state -->
+  <circle cx="512" cy="512" r="436" fill="none" stroke="#C6FF3D" stroke-width="40"
+          stroke-dasharray="2400 365" transform="rotate(-62 512 512)"/>
+  <g fill="#C6FF3D" transform="translate(512 512) skewX(-12) scale(2.4) translate(-112 -75)">
+    <path d="M0 0H100V30H30V60H100V150H0V120H70V90H0Z"/>
+    <path transform="translate(124 0)" d="M0 0H100V30H30V60H85V90H30V150H0Z"/>
+  </g>
+</svg>
